@@ -1,0 +1,7 @@
+---
+resources:
+- prometheus-configmap.yaml
+- prometheus-pv.yaml
+- prometheus-pvc.yaml
+- prometheus-deployment.yaml
+- prometheus-service.yaml
