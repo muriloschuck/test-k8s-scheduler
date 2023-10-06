@@ -5,7 +5,6 @@ metadata:
   namespace: run-job
   name: JOB_NAME_PLACEHOLDER
 spec:
-  schedulerName: my-scheduler
   containers:
   - name: job
     image: polinux/stress

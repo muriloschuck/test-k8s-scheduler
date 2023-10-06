@@ -68,7 +68,7 @@ data:
                       - name: memory
                         weight: 2
                       - name: ephemeral-storage
-                        weight: 3           
+                        weight: 2           
                   type: MostAllocated
             name: NodeResourcesFit
         plugins:

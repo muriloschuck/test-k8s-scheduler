@@ -24,17 +24,17 @@ create_job() {
 }
 
 rm $_jobs_file_path
-create_job "30s" "1000Mi" "1" "2Gi"
-create_job "27s" "382Mi" "1" "3Gi"
-create_job "13s" "900Mi" "1" "3Gi"
-create_job "37s" "1300Mi" "1" "3Gi"
-create_job "18s" "1200Mi" "1" "5Gi"
-create_job "40s" "952Mi" "2" "6Gi"
-create_job "8s" "600Mi" "1" "5Gi"
-create_job "30s" "900Mi" "1" "2Gi"
-create_job "20s" "1300Mi" "1" "6Gi"
-create_job "25s" "700Mi" "2" "8Gi"
-create_job "13s" "600Mi" "1" "3Gi"
+create_job "60s" "1000Mi" "1" "8Gi"
+create_job "54s" "382Mi" "1.2" "10Gi"
+create_job "27s" "1347Mi" "0.7" "9Gi"
+create_job "78s" "1719Mi" "1.8" "10Gi"
+create_job "36s" "2185Mi" "1.7" "5Gi"
+create_job "92s" "952Mi" "0.9" "9Gi"
+create_job "15s" "1264Mi" "1.2" "9Gi"
+create_job "63s" "1891Mi" "1.3" "10Gi"
+create_job "42s" "2635Mi" "1.2" "6Gi"
+create_job "70s" "557Mi" "1.6" "8Gi"
+create_job "10s" "774Mi" "1.0" "6Gi"
 
 echo "[INFO] The jobs yaml file is available at $_jobs_file_path"
 echo "[INFO] Deploying resources in the cluster..."
